@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ControlApp</string>
+
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+
+    <string name="btn_find">Find Device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Remote Bluetooth</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="none_found">No devices found</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="title_activity_class">Class</string>
+    
+    <string name="pref_wifi_state">Enable Wifi Conection</string>
+    <string name="pref_wifi_state_summary">Wifi</string>
+    <string name="pref_ip_address">Set Ip</string>
+    <string name="pref_ip_address_summary">Set your Ip Address here</string>
+    
+     <string name="pref_port_address">Set Port</string>
+    <string name="pref_port_address_summary">Set your Port here</string>
+    
+    <string name="pref_user_profile">Wifi Configuration</string>
+    <string name="pref_update_setting">Conection Settings</string>
+    
+    <string name="pref_bluetooth_setting"> Bluetooth Status</string>
+    <string name="pref_bluetooth_state"> Enable Bluetooth State</string>
+    <string name="pref_bluetooth_state_summary">Bluetooth</string>
+
+   
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Functions</item>
+        <item>System</item>
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/funcionicon</item>
+        <item>@drawable/system</item>
+        <item>@drawable/settingsicon</item>
+        <item>@drawable/helpicon</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_write">WriteActivity</string>
+    <string name="title_activity_touch">TouchActivity</string>
+    <string name="title_activity_resize">ResizeActivity</string>
+    <string name="title_activity_escribir_fragmento">EscribirFragmento</string>
+    <string name="title_activity_etnyrreyhe5rth">Etnyrreyhe5rth</string>
+    <string name="_">" "</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+
+    <item android:id="@+id/action_backspace"	
+         android:icon="@drawable/ic_action_backspace"
+         android:title="backspace"
+            android:showAsAction="always"
+         />
+    
+     <item android:id="@+id/action_enter"
+        	 android:icon="@drawable/ic_action_forward"  
+         	 android:title="enter"
+           android:showAsAction="always"
+         />
+    <item android:id="@+id/action_micro"
+          android:icon="@drawable/ic_action_mic"
+          android:title="microphone"
+           android:showAsAction="always"
+         />
+    <item android:id="@+id/action_accept"
+          android:icon="@drawable/ic_action_accept"
+          android:title="Send"
+         android:showAsAction="always"
+         />
+ 
+    
+   
+    
+</menu>

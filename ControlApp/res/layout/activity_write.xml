@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/txtmouse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/EntTxtBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/list_background"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:textColor="@color/list_item_title" 
+        android:imeOptions="actionDone">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/EntTxtBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/DltTxtBtn"
+        android:layout_alignBottom="@+id/DltTxtBtn"
+        android:layout_alignParentRight="true"
+        
+        android:onClick="enterKey"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/SendTxtBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TalkBtn"
+        android:layout_alignBottom="@+id/TalkBtn"
+        android:layout_alignParentRight="true"
+       
+        android:onClick="funcion"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/TalkBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DltTxtBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="46dp"
+       
+        android:onClick="startVoiceRecognitionActivity"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/DltTxtBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TalkBtn"
+        android:layout_alignLeft="@+id/txtmouse"
+        android:layout_marginBottom="22dp"
+      
+        android:onClick="backSpace"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hand.ControlApp"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+          android:uiOptions="splitActionBarWhenNarrow"
+        >
+        
+        <activity
+            android:name="funciones.MainActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="funciones.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="funciones.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="funciones.WriteActivity"
+            android:label="@string/title_activity_write"
+       android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="funciones.TouchActivity"
+            android:label="@string/title_activity_touch"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="funciones.ResizeActivity"
+            android:label="@string/title_activity_resize"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="funciones.EscribirFragment"
+            android:label="@string/title_activity_escribir_fragmento"
+             android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+           <activity
+            android:name="funciones.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device" />
+        <activity
+            android:name="funciones.remotebluetooth.Class"
+            android:label="@string/title_activity_class" >
+        </activity>
+       <activity
+            android:name="funciones.UserSettingActivity" />
+            
+      
+    </application>
+
+</manifest>

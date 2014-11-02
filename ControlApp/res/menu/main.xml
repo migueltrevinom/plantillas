@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+      <item android:id="@+id/scan"
+          android:icon="@drawable/ic_action_bluetooth"
+          android:title="@string/connect"
+          android:showAsAction="ifRoom" />
+         <item android:id="@+id/Wifi"
+          android:icon="@drawable/ic_action_network_wifi"
+          android:title="Wifi"  
+         android:showAsAction="ifRoom" />
+    <item android:id="@+id/discoverable"
+          android:icon="@drawable/ic_action_location_searching"
+          android:title="@string/discoverable"   android:showAsAction="ifRoom" />
+  
+    
+</menu>

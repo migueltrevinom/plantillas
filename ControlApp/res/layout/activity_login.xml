@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  
+
+    <EditText
+        android:id="@+id/ipText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/portTxt"
+        android:ems="10"
+        android:hint="x.x.x.x" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ipText"
+        android:layout_alignBottom="@+id/ipText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp"
+        android:text="IP:" />
+
+    <TextView
+        android:id="@+id/portTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titulo"
+        android:layout_below="@+id/ipText"
+        android:layout_marginTop="36dp"
+        android:text="Port:" />
+
+    <EditText
+        android:id="@+id/puertoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/portTxt"
+        android:layout_alignLeft="@+id/ipText"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Pc Port" />
+
+</RelativeLayout>
